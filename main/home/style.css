@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-color: #121212;
+  cursor: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.char {
+  position: fixed;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50vmax;
+}
+
+.char p {
+  position: relative;
+  top: -12px;
+  color: white;
+}
+
+#self {
+  background-color: rgba(71,102,255,0.75);
+}
+
+.other {
+  background-color: rgba(255,71,71,0.75);
+}
